@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Azzam Ubaidillah" => "azzamu.ubaidillah05@gmail.com" }
   spec.platform     = :ios, "17.0"
 
-  spec.source       = { :git => "https://github.com/Azzamubaidillah/ABTrackingSDK.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/Azzamubaidillah/ABTrackingSDK.git", :tag => "1.0.2" }
 
   spec.source_files  = "Sources/**/*.{h,m,swift}"
 end
