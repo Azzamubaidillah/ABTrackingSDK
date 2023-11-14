@@ -19,6 +19,7 @@
 		8726AD032B031A7400F8B496 /* ABTrackingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */; };
 		875D83D22B031DFD00E605AC /* ABTrackingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */; };
 		875D83D52B031E1B00E605AC /* ABTrackingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACED2B03187A00F8B496 /* ABTrackingConstants.swift */; };
+		875D83D92B032B8900E605AC /* ABTrackingSDK.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 875D83D82B032B8900E605AC /* ABTrackingSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8726ACF92B03195F00F8B496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8726ACFB2B03196300F8B496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8726ACFE2B03196300F8B496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		875D83D82B032B8900E605AC /* ABTrackingSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ABTrackingSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		8726ACC62B03184100F8B496 = {
 			isa = PBXGroup;
 			children = (
+				875D83D82B032B8900E605AC /* ABTrackingSDK.podspec */,
 				8726ACEA2B03184500F8B496 /* Sources */,
 				8726ACD22B03184100F8B496 /* ABTrackingSDK */,
 				8726ACDE2B03184200F8B496 /* ABTrackingSDKTests */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				875D83D22B031DFD00E605AC /* ABTrackingSDK.swift in Sources */,
+				875D83D92B032B8900E605AC /* ABTrackingSDK.podspec in Sources */,
 				8726ACD52B03184100F8B496 /* ABTrackingSDK.docc in Sources */,
 				8726ACEE2B03187A00F8B496 /* ABTrackingConstants.swift in Sources */,
 			);
