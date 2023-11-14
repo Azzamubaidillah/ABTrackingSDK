@@ -11,6 +11,14 @@
 		8726ACDB2B03184200F8B496 /* ABTrackingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726ACD02B03184100F8B496 /* ABTrackingSDK.framework */; };
 		8726ACE02B03184200F8B496 /* ABTrackingSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACDF2B03184200F8B496 /* ABTrackingSDKTests.swift */; };
 		8726ACE12B03184200F8B496 /* ABTrackingSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8726ACD32B03184100F8B496 /* ABTrackingSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8726ACEE2B03187A00F8B496 /* ABTrackingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACED2B03187A00F8B496 /* ABTrackingConstants.swift */; };
+		8726ACF82B03195F00F8B496 /* ABTrackingExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACF72B03195F00F8B496 /* ABTrackingExampleApp.swift */; };
+		8726ACFA2B03195F00F8B496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACF92B03195F00F8B496 /* ContentView.swift */; };
+		8726ACFC2B03196300F8B496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8726ACFB2B03196300F8B496 /* Assets.xcassets */; };
+		8726ACFF2B03196300F8B496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8726ACFE2B03196300F8B496 /* Preview Assets.xcassets */; };
+		8726AD032B031A7400F8B496 /* ABTrackingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */; };
+		875D83D22B031DFD00E605AC /* ABTrackingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */; };
+		875D83D52B031E1B00E605AC /* ABTrackingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726ACED2B03187A00F8B496 /* ABTrackingConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,13 @@
 		8726ACD42B03184100F8B496 /* ABTrackingSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ABTrackingSDK.docc; sourceTree = "<group>"; };
 		8726ACDA2B03184200F8B496 /* ABTrackingSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTrackingSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8726ACDF2B03184200F8B496 /* ABTrackingSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTrackingSDKTests.swift; sourceTree = "<group>"; };
+		8726ACED2B03187A00F8B496 /* ABTrackingConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTrackingConstants.swift; sourceTree = "<group>"; };
+		8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTrackingSDK.swift; sourceTree = "<group>"; };
+		8726ACF52B03195F00F8B496 /* ABTrackingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABTrackingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8726ACF72B03195F00F8B496 /* ABTrackingExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTrackingExampleApp.swift; sourceTree = "<group>"; };
+		8726ACF92B03195F00F8B496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8726ACFB2B03196300F8B496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8726ACFE2B03196300F8B496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +62,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8726ACF22B03195F00F8B496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8726ACC62B03184100F8B496 = {
 			isa = PBXGroup;
 			children = (
+				8726ACEA2B03184500F8B496 /* Sources */,
 				8726ACD22B03184100F8B496 /* ABTrackingSDK */,
 				8726ACDE2B03184200F8B496 /* ABTrackingSDKTests */,
+				8726ACF62B03195F00F8B496 /* ABTrackingExample */,
 				8726ACD12B03184100F8B496 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				8726ACD02B03184100F8B496 /* ABTrackingSDK.framework */,
 				8726ACDA2B03184200F8B496 /* ABTrackingSDKTests.xctest */,
+				8726ACF52B03195F00F8B496 /* ABTrackingExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +108,34 @@
 				8726ACDF2B03184200F8B496 /* ABTrackingSDKTests.swift */,
 			);
 			path = ABTrackingSDKTests;
+			sourceTree = "<group>";
+		};
+		8726ACEA2B03184500F8B496 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8726ACED2B03187A00F8B496 /* ABTrackingConstants.swift */,
+				8726ACEF2B03189E00F8B496 /* ABTrackingSDK.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8726ACF62B03195F00F8B496 /* ABTrackingExample */ = {
+			isa = PBXGroup;
+			children = (
+				8726ACF72B03195F00F8B496 /* ABTrackingExampleApp.swift */,
+				8726ACF92B03195F00F8B496 /* ContentView.swift */,
+				8726ACFB2B03196300F8B496 /* Assets.xcassets */,
+				8726ACFD2B03196300F8B496 /* Preview Content */,
+			);
+			path = ABTrackingExample;
+			sourceTree = "<group>";
+		};
+		8726ACFD2B03196300F8B496 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8726ACFE2B03196300F8B496 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +188,23 @@
 			productReference = 8726ACDA2B03184200F8B496 /* ABTrackingSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8726ACF42B03195F00F8B496 /* ABTrackingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8726AD002B03196300F8B496 /* Build configuration list for PBXNativeTarget "ABTrackingExample" */;
+			buildPhases = (
+				8726ACF12B03195F00F8B496 /* Sources */,
+				8726ACF22B03195F00F8B496 /* Frameworks */,
+				8726ACF32B03195F00F8B496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABTrackingExample;
+			productName = ABTrackingExample;
+			productReference = 8726ACF52B03195F00F8B496 /* ABTrackingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,11 +214,15 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Azzam Ubaidillah";
 				TargetAttributes = {
 					8726ACCF2B03184100F8B496 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 					8726ACD92B03184200F8B496 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8726ACF42B03195F00F8B496 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -168,6 +242,7 @@
 			targets = (
 				8726ACCF2B03184100F8B496 /* ABTrackingSDK */,
 				8726ACD92B03184200F8B496 /* ABTrackingSDKTests */,
+				8726ACF42B03195F00F8B496 /* ABTrackingExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +262,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8726ACF32B03195F00F8B496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8726ACFF2B03196300F8B496 /* Preview Assets.xcassets in Resources */,
+				8726ACFC2B03196300F8B496 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875D83D22B031DFD00E605AC /* ABTrackingSDK.swift in Sources */,
 				8726ACD52B03184100F8B496 /* ABTrackingSDK.docc in Sources */,
+				8726ACEE2B03187A00F8B496 /* ABTrackingConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +289,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8726ACE02B03184200F8B496 /* ABTrackingSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726ACF12B03195F00F8B496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8726ACFA2B03195F00F8B496 /* ContentView.swift in Sources */,
+				8726ACF82B03195F00F8B496 /* ABTrackingExampleApp.swift in Sources */,
+				8726AD032B031A7400F8B496 /* ABTrackingSDK.swift in Sources */,
+				875D83D52B031E1B00E605AC /* ABTrackingConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +504,7 @@
 		8726ACE82B03184200F8B496 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6X6Q46SLSA;
@@ -423,6 +521,7 @@
 		8726ACE92B03184200F8B496 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6X6Q46SLSA;
@@ -431,6 +530,64 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.azzam.ABTrackingSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8726AD012B03196300F8B496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ABTrackingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X6Q46SLSA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzam.ABTrackingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8726AD022B03196300F8B496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ABTrackingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X6Q46SLSA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzam.ABTrackingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +619,15 @@
 			buildConfigurations = (
 				8726ACE82B03184200F8B496 /* Debug */,
 				8726ACE92B03184200F8B496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8726AD002B03196300F8B496 /* Build configuration list for PBXNativeTarget "ABTrackingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8726AD012B03196300F8B496 /* Debug */,
+				8726AD022B03196300F8B496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
